@@ -1,0 +1,95 @@
+body{
+    background-color: pink;
+    font-family: 'Trebuchet MS';
+}
+
+#phat{
+width: 60%;
+}
+
+#ClosedCard{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 20rem;
+    margin: auto;
+    margin-top: 10em;
+    height: 30em;
+    border: black 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#ClosedCard h1{
+    padding-top: 1em;
+    color: black;
+    
+}
+
+/* .hidden{
+    display: none;
+} */
+
+
+#img1{
+    width: 20%;
+    float: left;
+}
+
+#img2{
+    float: right;
+    width: 20%;
+}
+
+
+#openedCard{
+    background-color: antiquewhite;
+    text-align: center;
+    width: 40rem;
+    margin: auto;
+    margin-top: 10em;
+    height: 30em;
+    border: black 1px solid;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    display: flex;
+}
+
+#leftSide{
+    height: 100%;
+    width: 50%;
+    border-right: 1px black solid;
+    
+}
+
+#rightSide{
+    height: 100%;
+    width: 50%;
+    border-left: 1px black solid;
+}
+
+#opCardImg{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    width: 60%;
+}
+
+#leftSide p{
+    font-size: 150%;
+    font-family:"Brush Script MT", "Brush Script Std", "cursive" ;
+}
+
+#rightSide p {
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+}
+
+
+
+#ending{
+    text-align: left;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+#RSImg{
+    width: 60%;
+    margin-bottom: 9em;
+}
